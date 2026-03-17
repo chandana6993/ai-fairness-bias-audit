@@ -2,8 +2,10 @@
   "name": "ai-fairness-bias-audit",
   "version": "1.0.0",
   "private": true,
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "scripts": {
-    "build": "npm run build --prefix frontend",
-    "install": "npm install --prefix frontend"
+    "build": "cd frontend && npm install && npm run build"
   }
 }
