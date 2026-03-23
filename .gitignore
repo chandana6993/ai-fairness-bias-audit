@@ -56,3 +56,8 @@ backend/uploads/
 # OS
 .DS_Store
 Thumbs.db
+*.db
+__pycache__/
+*.pyc
+node_modules/
+dist/

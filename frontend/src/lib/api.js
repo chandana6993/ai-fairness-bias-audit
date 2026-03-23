@@ -1,5 +1,4 @@
-const BASE_URL = import.meta.env.VITE_API_URL || 
-  (window.location.hostname === "localhost" ? "http://localhost:8000" : "");
+const BASE_URL = "https://ai-fairness-backend.onrender.com";
 
 // ─── Token helpers ───────────────────────────
 export const getToken = () => localStorage.getItem("token");
